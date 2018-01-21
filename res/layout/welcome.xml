@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OVXExample" 
+    android:background="@drawable/light">
+
+    <TextView
+        android:id="@+id/wcText1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="@string/wcText1" />
+
+    <Button
+        android:id="@+id/wcButton1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="@string/wcButton1" />
+
+    <Button
+        android:id="@+id/atri"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/wcButton1"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/wcButton1"
+        android:text="Atri" />
+
+    <Button
+        android:id="@+id/vijetha"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/atri"
+        android:layout_below="@+id/atri"
+        android:text="Vijetha" />
+
+    <Button
+        android:id="@+id/chris"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/vijetha"
+        android:layout_alignRight="@+id/atri"
+        android:layout_below="@+id/vijetha"
+        android:text="Chris" />
+
+    <Button
+        android:id="@+id/kevin"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/chris"
+        android:layout_below="@+id/chris"
+        android:text="Kevin" />
+
+    <TextView
+        android:id="@+id/wcText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wcButton1"
+        android:layout_alignLeft="@+id/wcButton1"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:text="@string/wcText2" />
+
+</RelativeLayout>

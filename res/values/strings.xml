@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSC 258 - Video Conference</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wcText1">Welcome to Video Conferencing</string>
+    <string name="wcText2">Please Login as</string>
+    <string name="wcButton1">Administrator</string>
+    <string name="wcButton2">User</string>
+    <string name="home">HOME</string>
+    <string name="back">BACK</string>
+
+</resources>

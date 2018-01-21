@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OVXExample" 
+    android:background="@drawable/light">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/home" />
+
+    <TextView
+        android:id="@+id/ahp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userbutton1"
+        android:layout_alignRight="@+id/back"
+        android:layout_below="@+id/back"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:text="ADD" />
+
+    <ToggleButton
+        android:id="@+id/userbutton2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/back"
+        android:layout_below="@+id/userbutton1"
+        android:text="Vijetha"
+        android:textOff="Vijetha"
+        android:textOn="Vijetha-Added" />
+
+    <ToggleButton
+        android:id="@+id/userbutton1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/userbutton2"
+        android:layout_alignRight="@+id/back"
+        android:layout_below="@+id/ahp1"
+        android:layout_marginTop="18dp"
+        android:text="Atri"
+        android:textOff="Atri"
+        android:textOn="Atri-Added" />
+
+    <ToggleButton
+        android:id="@+id/userbutton4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/userbutton2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/userbutton3"
+        android:text="Kevin"
+        android:textOff="Kevin"
+        android:textOn="Kevin-Added" />
+
+    <ToggleButton
+        android:id="@+id/userbutton3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/userbutton2"
+        android:layout_alignRight="@+id/userbutton2"
+        android:layout_below="@+id/userbutton2"
+        android:text="Chris"
+        android:textOff="Chris"
+        android:textOn="Chris-Added" />
+
+    <Button
+        android:id="@+id/startvideoconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userbutton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Start Video Conferencing" />
+
+    <Button
+        android:id="@+id/viewrecordings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startvideoconf"
+        android:layout_centerHorizontal="true"
+        android:text="View Recordings" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home"
+        android:layout_alignBottom="@+id/home"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" />
+
+</RelativeLayout>
